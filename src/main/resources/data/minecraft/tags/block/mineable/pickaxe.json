@@ -1,0 +1,13 @@
+{
+  "values": [
+    "realcinema:projector",
+    "realcinema:film_cutter",
+    "realcinema:film_burner",
+    "realcinema:cinema_screen",
+    "realcinema:speaker_wall",
+    "realcinema:speaker_floor",
+    "realcinema:control_panel",
+    "realcinema:cinema_seat",
+    "realcinema:popcorn_machine"
+  ]
+}

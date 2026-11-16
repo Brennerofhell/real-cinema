@@ -1,0 +1,105 @@
+{
+  "format_version": "1.8.0",
+  "animations": {
+    "animation.film_cutter.idle": {
+      "animation_length": 1.0,
+      "bones": {
+        "blade": {
+          "position": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        }
+      },
+      "loop": "hold_on_last_frame"
+    },
+    "animation.film_cutter.cut": {
+      "animation_length": 1.2,
+      "bones": {
+        "blade": {
+          "position": {
+            "0": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "0.15": [
+              0.0,
+              0.4,
+              0.0
+            ],
+            "0.45": [
+              0.0,
+              -2.2,
+              0.0
+            ],
+            "0.6": [
+              0.0,
+              -2.2,
+              0.0
+            ],
+            "1.1": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "1.2": [
+              0.0,
+              0.0,
+              0.0
+            ]
+          }
+        }
+      }
+    },
+    "animation.film_cutter.crank_turn": {
+      "animation_length": 2.0,
+      "bones": {
+        "crank": {
+          "rotation": {
+            "0": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "2": [
+              -360.0,
+              0.0,
+              0.0
+            ]
+          }
+        },
+        "reel_l": {
+          "rotation": {
+            "0": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "2": [
+              0.0,
+              -360.0,
+              0.0
+            ]
+          }
+        },
+        "reel_r": {
+          "rotation": {
+            "0": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "2": [
+              0.0,
+              360.0,
+              0.0
+            ]
+          }
+        }
+      },
+      "loop": true
+    }
+  }
+}

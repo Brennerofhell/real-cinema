@@ -1,0 +1,57 @@
+{
+  "format_version": "1.8.0",
+  "animations": {
+    "animation.clapperboard.idle": {
+      "animation_length": 1.0,
+      "bones": {
+        "clapper": {
+          "rotation": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        }
+      },
+      "loop": "hold_on_last_frame"
+    },
+    "animation.clapperboard.clap": {
+      "animation_length": 0.6,
+      "bones": {
+        "clapper": {
+          "rotation": {
+            "0": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "0.15": [
+              0.0,
+              0.0,
+              30.0
+            ],
+            "0.4": [
+              0.0,
+              0.0,
+              30.0
+            ],
+            "0.45": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "0.5": [
+              0.0,
+              0.0,
+              4.0
+            ],
+            "0.6": [
+              0.0,
+              0.0,
+              0.0
+            ]
+          }
+        }
+      }
+    }
+  }
+}

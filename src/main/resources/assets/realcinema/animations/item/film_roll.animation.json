@@ -1,0 +1,38 @@
+{
+  "format_version": "1.8.0",
+  "animations": {
+    "animation.film_roll.idle": {
+      "animation_length": 1.0,
+      "bones": {
+        "roll": {
+          "rotation": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        }
+      },
+      "loop": true
+    },
+    "animation.film_roll.spin": {
+      "animation_length": 2.0,
+      "bones": {
+        "roll": {
+          "rotation": {
+            "0": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "2": [
+              0.0,
+              0.0,
+              -360.0
+            ]
+          }
+        }
+      },
+      "loop": true
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "format_version": "1.8.0",
+  "animations": {
+    "animation.film_canister.idle": {
+      "animation_length": 1.0,
+      "bones": {
+        "can": {
+          "rotation": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        }
+      },
+      "loop": true
+    }
+  }
+}

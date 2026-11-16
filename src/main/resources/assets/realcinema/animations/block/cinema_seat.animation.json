@@ -1,0 +1,65 @@
+{
+  "format_version": "1.8.0",
+  "animations": {
+    "animation.cinema_seat.seat_down": {
+      "animation_length": 1.0,
+      "bones": {
+        "seat": {
+          "rotation": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        }
+      },
+      "loop": "hold_on_last_frame"
+    },
+    "animation.cinema_seat.seat_up": {
+      "animation_length": 1.0,
+      "bones": {
+        "seat": {
+          "rotation": [
+            80.0,
+            0.0,
+            0.0
+          ]
+        }
+      },
+      "loop": "hold_on_last_frame"
+    },
+    "animation.cinema_seat.wiggle": {
+      "animation_length": 0.8,
+      "bones": {
+        "seat": {
+          "rotation": {
+            "0": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "0.15": [
+              -4.0,
+              0.0,
+              0.0
+            ],
+            "0.35": [
+              3.0,
+              0.0,
+              0.0
+            ],
+            "0.55": [
+              -1.5,
+              0.0,
+              0.0
+            ],
+            "0.8": [
+              0.0,
+              0.0,
+              0.0
+            ]
+          }
+        }
+      }
+    }
+  }
+}

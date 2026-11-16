@@ -1,0 +1,389 @@
+{
+  "format_version": "1.8.0",
+  "animations": {
+    "animation.control_panel.idle": {
+      "animation_length": 1.0,
+      "bones": {
+        "led_play": {
+          "scale": [
+            0.001,
+            0.001,
+            0.001
+          ]
+        },
+        "led_pause": {
+          "scale": [
+            0.001,
+            0.001,
+            0.001
+          ]
+        },
+        "led_stop": {
+          "scale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        "bar1": {
+          "scale": [
+            1.0,
+            0.001,
+            1.0
+          ]
+        },
+        "bar2": {
+          "scale": [
+            1.0,
+            0.001,
+            1.0
+          ]
+        },
+        "bar3": {
+          "scale": [
+            1.0,
+            0.001,
+            1.0
+          ]
+        },
+        "bar4": {
+          "scale": [
+            1.0,
+            0.001,
+            1.0
+          ]
+        }
+      },
+      "loop": "hold_on_last_frame"
+    },
+    "animation.control_panel.status_playing": {
+      "animation_length": 1.0,
+      "bones": {
+        "led_play": {
+          "scale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        "led_pause": {
+          "scale": [
+            0.001,
+            0.001,
+            0.001
+          ]
+        },
+        "led_stop": {
+          "scale": [
+            0.001,
+            0.001,
+            0.001
+          ]
+        }
+      },
+      "loop": "hold_on_last_frame"
+    },
+    "animation.control_panel.status_paused": {
+      "animation_length": 1.0,
+      "bones": {
+        "led_play": {
+          "scale": [
+            0.001,
+            0.001,
+            0.001
+          ]
+        },
+        "led_pause": {
+          "scale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        "led_stop": {
+          "scale": [
+            0.001,
+            0.001,
+            0.001
+          ]
+        }
+      },
+      "loop": "hold_on_last_frame"
+    },
+    "animation.control_panel.status_stopped": {
+      "animation_length": 1.0,
+      "bones": {
+        "led_play": {
+          "scale": [
+            0.001,
+            0.001,
+            0.001
+          ]
+        },
+        "led_pause": {
+          "scale": [
+            0.001,
+            0.001,
+            0.001
+          ]
+        },
+        "led_stop": {
+          "scale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        }
+      },
+      "loop": "hold_on_last_frame"
+    },
+    "animation.control_panel.press_start": {
+      "animation_length": 0.3,
+      "bones": {
+        "btn_start": {
+          "position": {
+            "0": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "0.1": [
+              0.0,
+              -0.5,
+              0.0
+            ],
+            "0.3": [
+              0.0,
+              0.0,
+              0.0
+            ]
+          }
+        }
+      }
+    },
+    "animation.control_panel.press_pause": {
+      "animation_length": 0.3,
+      "bones": {
+        "btn_pause": {
+          "position": {
+            "0": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "0.1": [
+              0.0,
+              -0.5,
+              0.0
+            ],
+            "0.3": [
+              0.0,
+              0.0,
+              0.0
+            ]
+          }
+        }
+      }
+    },
+    "animation.control_panel.press_stop": {
+      "animation_length": 0.3,
+      "bones": {
+        "btn_stop": {
+          "position": {
+            "0": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "0.1": [
+              0.0,
+              -0.5,
+              0.0
+            ],
+            "0.3": [
+              0.0,
+              0.0,
+              0.0
+            ]
+          }
+        }
+      }
+    },
+    "animation.control_panel.knob_turn": {
+      "animation_length": 1.0,
+      "bones": {
+        "knob_volume": {
+          "rotation": {
+            "0": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "1": [
+              0.0,
+              -270.0,
+              0.0
+            ]
+          }
+        }
+      },
+      "loop": "hold_on_last_frame"
+    },
+    "animation.control_panel.meter_off": {
+      "animation_length": 1.0,
+      "bones": {
+        "bar1": {
+          "scale": [
+            1.0,
+            0.001,
+            1.0
+          ]
+        },
+        "bar2": {
+          "scale": [
+            1.0,
+            0.001,
+            1.0
+          ]
+        },
+        "bar3": {
+          "scale": [
+            1.0,
+            0.001,
+            1.0
+          ]
+        },
+        "bar4": {
+          "scale": [
+            1.0,
+            0.001,
+            1.0
+          ]
+        }
+      },
+      "loop": "hold_on_last_frame"
+    },
+    "animation.control_panel.meter_active": {
+      "animation_length": 1.0,
+      "bones": {
+        "bar1": {
+          "scale": {
+            "0": [
+              1.0,
+              1.0,
+              1.0
+            ],
+            "0.25": [
+              1.0,
+              0.8,
+              1.0
+            ],
+            "0.5": [
+              1.0,
+              1.0,
+              1.0
+            ],
+            "0.75": [
+              1.0,
+              0.9,
+              1.0
+            ],
+            "1": [
+              1.0,
+              1.0,
+              1.0
+            ]
+          }
+        },
+        "bar2": {
+          "scale": {
+            "0": [
+              1.0,
+              0.7,
+              1.0
+            ],
+            "0.25": [
+              1.0,
+              1.0,
+              1.0
+            ],
+            "0.5": [
+              1.0,
+              0.6,
+              1.0
+            ],
+            "0.75": [
+              1.0,
+              1.0,
+              1.0
+            ],
+            "1": [
+              1.0,
+              0.7,
+              1.0
+            ]
+          }
+        },
+        "bar3": {
+          "scale": {
+            "0": [
+              1.0,
+              0.3,
+              1.0
+            ],
+            "0.25": [
+              1.0,
+              0.8,
+              1.0
+            ],
+            "0.5": [
+              1.0,
+              0.4,
+              1.0
+            ],
+            "0.75": [
+              1.0,
+              0.9,
+              1.0
+            ],
+            "1": [
+              1.0,
+              0.3,
+              1.0
+            ]
+          }
+        },
+        "bar4": {
+          "scale": {
+            "0": [
+              1.0,
+              0.001,
+              1.0
+            ],
+            "0.25": [
+              1.0,
+              0.4,
+              1.0
+            ],
+            "0.5": [
+              1.0,
+              0.001,
+              1.0
+            ],
+            "0.75": [
+              1.0,
+              0.5,
+              1.0
+            ],
+            "1": [
+              1.0,
+              0.001,
+              1.0
+            ]
+          }
+        }
+      },
+      "loop": true
+    }
+  }
+}
